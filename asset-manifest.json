@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Suchit-Jain-Portfolio/static/css/main.7621545f.css",
+    "main.js": "/Suchit-Jain-Portfolio/static/js/main.4b543657.js",
+    "index.html": "/Suchit-Jain-Portfolio/index.html",
+    "main.7621545f.css.map": "/Suchit-Jain-Portfolio/static/css/main.7621545f.css.map",
+    "main.4b543657.js.map": "/Suchit-Jain-Portfolio/static/js/main.4b543657.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7621545f.css",
+    "static/js/main.4b543657.js"
+  ]
+}
