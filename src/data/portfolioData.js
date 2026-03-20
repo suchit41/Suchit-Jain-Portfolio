@@ -84,7 +84,7 @@ export const portfolioData = {
         "Integrated ML inference pipelines into a responsive, student-focused web interface"
       ],
       liveUrl: "",
-      githubUrl: ""
+      githubUrl: "https://github.com/suchit41/Edutech"
     },
     {
       name: "Project Management System (Scrum Platform)",
@@ -95,7 +95,7 @@ export const portfolioData = {
         "Developed scalable APIs with real-time updates for fast-moving scrum workflows"
       ],
       liveUrl: "",
-      githubUrl: ""
+      githubUrl: "https://github.com/suchit41/scrum"
     }
   ],
 
