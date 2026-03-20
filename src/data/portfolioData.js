@@ -4,7 +4,7 @@ export const portfolioData = {
     title: "Software Engineer | Full-Stack and AI Systems",
     email: "Jainsuchit12@gmail.com",
     phone: "+91 9552103272",
-    linkedin: "https://www.linkedin.com/in/suchit-jain",
+    linkedin: "https://www.linkedin.com/in/suchit-jain-1b9757210 ",
     github: "https://github.com/suchit41",
     photo: "/images/profile.jpg",
     profile: "I design and ship product-focused software that combines full-stack engineering with practical AI. My work covers high-performance React interfaces, scalable API systems, and machine learning integrations deployed on cloud infrastructure. I focus on building reliable, user-centered solutions that create measurable business impact."
