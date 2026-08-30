@@ -94,8 +94,17 @@ export const portfolioData = {
         "Implemented secure authentication and role-based access controls using Clerk.js",
         "Developed scalable APIs with real-time updates for fast-moving scrum workflows"
       ],
-      liveUrl: "",
+      liveUrl: "https://scrum-murex-kappa.vercel.app/",
       githubUrl: "https://github.com/suchit41/scrum"
+    },
+    {
+      name: "Burn",
+      technologies: ["React.js", "Clerk.js", "Genai", "openai"],
+      description: [
+        "Snap & Analyze: Take a photo of your meal, and Burn will estimate the calories. Exercise Suggestions: Get tailored exercise suggestions based on the number of calories detected. Burn Time Estimation: Know how long it will take to burn those calories with different types of exercises. Track History: View your daily intake and exercise history to monitor your progress. User-Friendly Interface: Simple and intuitive design for all fitness levels."
+      ],
+      liveUrl: "https://burnfrontend.vercel.app/start",
+      githubUrl: "https://github.com/suchit41/burn_frontend"
     }
   ],
 
