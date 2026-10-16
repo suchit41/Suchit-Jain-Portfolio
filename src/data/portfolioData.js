@@ -12,45 +12,32 @@ export const portfolioData = {
 
   skills: {
     "Programming Languages": ["Java", "Python", "JavaScript"],
-    "Frontend": ["React.js", "Angular", "HTML5", "CSS3", "Bootstrap"],
+    "Frontend": ["React.js", "HTML5", "CSS3", "Bootstrap"],
     "Backend": ["Node.js", "Express.js", "FastAPI"],
     "AI/ML & Data": ["TensorFlow", "LangChain", "FAISS", "CLIP", "OCR"],
     "Databases": ["MongoDB", "SQL", "Firebase", "Supabase"],
     "Tools & Platforms": ["Git", "GitHub"],
-    "Cloud & DevOps": ["Google Cloud Platform", "Cloud Run", "Firebase Hosting", "Azure Virtual Machines", "CI/CD Pipelines"]
-  },
+    "Data Engineering & ETL": ["ETL/ELT Pipelines", "Data Extraction", "Data Transformation"]  },
 
   experience: [
     {
-      title: "Web Developer",
+      title: "Developer",
       company: "Accenture",
       period: "2024 Oct – Present",
       current: true,
       achievements: [
-        "Delivered scalable enterprise web applications using React.js, JavaScript, and REST APIs",
-        "Built reusable UI systems that improved consistency and reduced feature delivery time",
-        "Developed Node.js and Express.js backend services with MongoDB for secure and data-rich workflows",
-        "Collaborated with automation, product, and engineering teams to release production-ready internal tools",
+        "Developed an agentic document-processing solution to ingest and process heterogeneous sources, including PDFs, PowerPoint presentations, Word documents, and images.",
+        "Designed intelligent extraction workflows to preserve document structure, including headings, tables, paragraphs, hierarchy, and content relationships.",
+        "Built an automated data-transformation pipeline to map extracted information into a standardized Excel schema while maintaining source-to-output traceability.",
+        "Developed and integrated backend processing components to support document extraction, transformation, and structured data delivery.",
         "Created AI-assisted workflow tools that improved operational speed and reduced repetitive effort",
-        "Maintained quality through peer reviews, modular architecture, and disciplined Git workflows"
-      ]
-    },
-    {
-      title: "Software Engineering Intern",
-      company: "Finoux",
-      period: "2024 Jul – 2024 Oct",
-      current: false,
-      achievements: [
-        "Built responsive stock-analysis dashboards and financial interfaces in React.js",
-        "Implemented secure service integrations through Node.js and .NET APIs",
-        "Enabled low-latency live updates with WebSocket streams for real-time market monitoring",
-        "Worked in agile cycles with cross-functional teams to ship stable user-facing releases"
+        "Worked on workflow automation and application development to improve consistency and reduce manual document-processing effort."
       ]
     },
     {
       title: "AI/ML Engineer",
       company: "Smart Tech LLC",
-      period: "2024 May – 2024 Jul",
+      period: "2024 May – 2024 sept",
       current: false,
       achievements: [
         "Designed and fine-tuned TensorFlow image-classification models for medical imaging scenarios",
@@ -63,6 +50,27 @@ export const portfolioData = {
   ],
 
   projects: [
+      {
+      name: "Project Management System (Scrum Platform)",
+      technologies: ["Node.js", "React.js", "Clerk.js", "Supabase"],
+      description: [
+        "Built a collaborative sprint platform with dynamic task boards and clear team visibility",
+        "Implemented secure authentication and role-based access controls using Clerk.js",
+        "Developed scalable APIs with real-time updates for fast-moving scrum workflows"
+      ],
+      liveUrl: "https://scrum-murex-kappa.vercel.app/",
+      githubUrl: "https://github.com/suchit41/scrum"
+    },
+
+    {
+      name: "Burn",
+      technologies: ["React.js", "Clerk.js", "Genai", "openai"],
+      description: [
+        "Snap & Analyze: Take a photo of your meal, and Burn will estimate the calories. Exercise Suggestions: Get tailored exercise suggestions based on the number of calories detected. Burn Time Estimation: Know how long it will take to burn those calories with different types of exercises. Track History: View your daily intake and exercise history to monitor your progress. User-Friendly Interface: Simple and intuitive design for all fitness levels."
+      ],
+      liveUrl: "https://burnfrontend.vercel.app/start",
+      githubUrl: "https://github.com/suchit41/burn_frontend"
+    },
     {
       name: "Multimodal RAG Chatbot — ScrapeTalk",
       technologies: ["FastAPI", "LangChain", "CLIP", "FAISS", "React.js"],
@@ -85,27 +93,7 @@ export const portfolioData = {
       ],
       liveUrl: "",
       githubUrl: "https://github.com/suchit41/Edutech"
-    },
-    {
-      name: "Project Management System (Scrum Platform)",
-      technologies: ["Node.js", "React.js", "Clerk.js", "Supabase"],
-      description: [
-        "Built a collaborative sprint platform with dynamic task boards and clear team visibility",
-        "Implemented secure authentication and role-based access controls using Clerk.js",
-        "Developed scalable APIs with real-time updates for fast-moving scrum workflows"
-      ],
-      liveUrl: "https://scrum-murex-kappa.vercel.app/",
-      githubUrl: "https://github.com/suchit41/scrum"
-    },
-    {
-      name: "Burn",
-      technologies: ["React.js", "Clerk.js", "Genai", "openai"],
-      description: [
-        "Snap & Analyze: Take a photo of your meal, and Burn will estimate the calories. Exercise Suggestions: Get tailored exercise suggestions based on the number of calories detected. Burn Time Estimation: Know how long it will take to burn those calories with different types of exercises. Track History: View your daily intake and exercise history to monitor your progress. User-Friendly Interface: Simple and intuitive design for all fitness levels."
-      ],
-      liveUrl: "https://burnfrontend.vercel.app/start",
-      githubUrl: "https://github.com/suchit41/burn_frontend"
-    }
+    },   
   ],
 
   education: {
